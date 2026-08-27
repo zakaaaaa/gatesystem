@@ -1,0 +1,47 @@
+# =====================================================================
+# Sistem GATE - Deteksi Judol  |  dependency Python
+# Versi dipin sesuai environment kerja (Python 3.10.5)
+#
+# Pasang:  pip install -r requirements.txt
+#          python -m playwright install chromium
+#
+# Catatan CUDA: baris torch di bawah adalah build CPU/universal.
+# Untuk GPU NVIDIA, pasang torch/torchvision dari index resmi PyTorch
+# lebih dulu, mis:
+#   pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
+# lalu jalankan pip install -r requirements.txt (torch yang sudah ada tidak ditimpa).
+# =====================================================================
+
+# --- Pipeline skrining utama (screening.py, screening_demo.py, screening_gate.py, screening_cns.py) ---
+ultralytics==8.4.6
+opencv-python==4.12.0.88
+numpy==1.26.4
+playwright==1.57.0
+playwright-stealth==2.0.3
+aiofiles==25.1.0
+nest-asyncio            # hanya dipakai di jalur Google Colab (screening_gate.py)
+
+# --- Torch (dependensi ultralytics + cascade IndoBERT) ---
+torch==2.2.2
+torchvision==0.17.2
+
+# --- Pengumpulan link / cek liveness (kumpul_link_cns.py) ---
+requests==2.32.5
+urllib3==2.6.3
+
+# --- Evaluasi & grafik (evaluasi_sistem.py) ---
+scikit-learn==1.7.2
+matplotlib==3.10.8
+
+# --- Cascade IndoBERT (finetune_indobert_colab.py, evaluasi_cascade.py) ---
+# Opsional: hanya perlu bila menjalankan eksperimen cascade.
+transformers==4.45.2
+tokenizers==0.20.3
+
+# --- Ikut terpasang sbg dependensi ultralytics; dipin biar reproducible ---
+pandas==2.3.3
+pillow==12.1.0
+scipy==1.15.3
+tqdm==4.67.1
+PyYAML==6.0.3
+psutil==7.2.1

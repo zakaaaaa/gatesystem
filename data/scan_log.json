@@ -1,0 +1,163 @@
+[
+  {
+    "url": "dewan4dinc.com",
+    "status": "SUCCESS",
+    "score_data": {
+      "final_score": 2.88,
+      "risk_level": "LOW",
+      "breakdown": {
+        "visual_norm": 0,
+        "text_norm": 5.77,
+        "visual_items": [],
+        "text_keywords": {
+          "bet": 1
+        }
+      }
+    },
+    "error": null,
+    "timestamp": "2026-07-16T14:13:58.098475",
+    "duration_sec": 7.11,
+    "access_category": "BLOCKED_KOMDIGI",
+    "final_url": "https://dewan4dinc.com/",
+    "page_title": "Internet Positif",
+    "screenshot": "/Users/zakakurniarahman/Downloads/laporan-kp/kode/hasil_analisa_judol/low/dewan4dinc.com.jpg"
+  },
+  {
+    "url": "n94ywwycn7.rtp-lohanslot.com",
+    "status": "SUCCESS",
+    "score_data": {
+      "final_score": 2.88,
+      "risk_level": "LOW",
+      "breakdown": {
+        "visual_norm": 0,
+        "text_norm": 5.77,
+        "visual_items": [],
+        "text_keywords": {
+          "bet": 1
+        }
+      }
+    },
+    "error": null,
+    "timestamp": "2026-07-16T14:13:58.100829",
+    "duration_sec": 8.06,
+    "access_category": "BLOCKED_KOMDIGI",
+    "final_url": "https://n94ywwycn7.rtp-lohanslot.com/",
+    "page_title": "Internet Positif",
+    "screenshot": "/Users/zakakurniarahman/Downloads/laporan-kp/kode/hasil_analisa_judol/low/n94ywwycn7.rtp-lohanslot.com.jpg"
+  },
+  {
+    "url": "ownitgucci.com",
+    "status": "SUCCESS",
+    "score_data": {
+      "final_score": 2.88,
+      "risk_level": "LOW",
+      "breakdown": {
+        "visual_norm": 0,
+        "text_norm": 5.77,
+        "visual_items": [],
+        "text_keywords": {
+          "bet": 1
+        }
+      }
+    },
+    "error": null,
+    "timestamp": "2026-07-16T14:13:58.102571",
+    "duration_sec": 8.89,
+    "access_category": "BLOCKED_KOMDIGI",
+    "final_url": "https://ownitgucci.com/",
+    "page_title": "Internet Positif",
+    "screenshot": "/Users/zakakurniarahman/Downloads/laporan-kp/kode/hasil_analisa_judol/low/ownitgucci.com.jpg"
+  },
+  {
+    "url": "barongbetplays.com",
+    "status": "SUCCESS",
+    "score_data": {
+      "final_score": 2.88,
+      "risk_level": "LOW",
+      "breakdown": {
+        "visual_norm": 0,
+        "text_norm": 5.77,
+        "visual_items": [],
+        "text_keywords": {
+          "bet": 1
+        }
+      }
+    },
+    "error": null,
+    "timestamp": "2026-07-16T14:13:58.093301",
+    "duration_sec": 9.7,
+    "access_category": "BLOCKED_KOMDIGI",
+    "final_url": "https://barongbetplays.com/",
+    "page_title": "Internet Positif",
+    "screenshot": "/Users/zakakurniarahman/Downloads/laporan-kp/kode/hasil_analisa_judol/low/barongbetplays.com.jpg"
+  },
+  {
+    "url": "kudahoki-q9us.kudahoki.online",
+    "status": "SUCCESS",
+    "score_data": {
+      "final_score": 2.88,
+      "risk_level": "LOW",
+      "breakdown": {
+        "visual_norm": 0,
+        "text_norm": 5.77,
+        "visual_items": [],
+        "text_keywords": {
+          "bet": 1
+        }
+      }
+    },
+    "error": null,
+    "timestamp": "2026-07-16T14:13:58.104129",
+    "duration_sec": 10.59,
+    "access_category": "BLOCKED_KOMDIGI",
+    "final_url": "https://kudahoki-q9us.kudahoki.online/",
+    "page_title": "Internet Positif",
+    "screenshot": "/Users/zakakurniarahman/Downloads/laporan-kp/kode/hasil_analisa_judol/low/kudahoki-q9us.kudahoki.online.jpg"
+  },
+  {
+    "url": "9audy88.com",
+    "status": "SUCCESS",
+    "score_data": {
+      "final_score": 2.88,
+      "risk_level": "LOW",
+      "breakdown": {
+        "visual_norm": 0,
+        "text_norm": 5.77,
+        "visual_items": [],
+        "text_keywords": {
+          "bet": 1
+        }
+      }
+    },
+    "error": null,
+    "timestamp": "2026-07-16T14:13:58.081897",
+    "duration_sec": 11.48,
+    "access_category": "BLOCKED_KOMDIGI",
+    "final_url": "https://9audy88.com/",
+    "page_title": "Internet Positif",
+    "screenshot": "/Users/zakakurniarahman/Downloads/laporan-kp/kode/hasil_analisa_judol/low/9audy88.com.jpg"
+  },
+  {
+    "url": "pejuangslotcrm.com",
+    "status": "SUCCESS",
+    "score_data": {
+      "final_score": 2.88,
+      "risk_level": "LOW",
+      "breakdown": {
+        "visual_norm": 0,
+        "text_norm": 5.77,
+        "visual_items": [],
+        "text_keywords": {
+          "bet": 1
+        }
+      }
+    },
+    "error": null,
+    "timestamp": "2026-07-16T14:14:05.934000",
+    "duration_sec": 8.88,
+    "access_category": "BLOCKED_KOMDIGI",
+    "final_url": "https://pejuangslotcrm.com/",
+    "page_title": "Internet Positif",
+    "screenshot": "/Users/zakakurniarahman/Downloads/laporan-kp/kode/hasil_analisa_judol/low/pejuangslotcrm.com.jpg"
+  }
+]

@@ -1,0 +1,54 @@
+URL,Status,Error,V,T,F,Timestamp,Duration (s)
+newgrounds.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:37:20.002343,2.2
+pogo.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:37:22.605956,1.94
+armorgames.com,ERROR,Page.screenshot: Timeout 20000ms exceeded.,0,0,0,2026-06-08T09:36:49.205816,47.12
+plays.org,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:37:57.424839,0.25
+juegos.com,ERROR,Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://juegos.com,0,0,0,2026-06-08T09:37:47.007986,12.38
+primarygames.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:38:00.458130,22.42
+mathplayground.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:38:09.094410,15.65
+slotomania.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:38:59.335170,3.5
+doubledowncasino.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:39:01.671399,2.35
+huugegames.com,ERROR,Page.goto: net::ERR_CONNECTION_RESET at https://huugegames.c,0,0,0,2026-06-08T09:39:04.750568,1.95
+gametwist.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:39:10.165977,0.37
+houseoffun.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:39:12.064700,0.93
+playstudios.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:39:16.158263,0.28
+productmadness.com,ERROR,Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://productmad,0,0,0,2026-06-08T09:39:24.917362,5.81
+doubleugames.com,ERROR,Page.evaluate: TypeError: Cannot read properties of null (re,0,0,0,2026-06-08T09:39:15.307031,18.14
+bingoblitz.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:39:34.476748,0.22
+mahjongtime.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:39:52.050583,0.22
+247mahjong.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:39:53.326598,0.22
+arkadium.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:39:59.128260,0.22
+247solitaire.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:40:20.132884,1.81
+jackpotpartycasino.com,ERROR,Timeout & Unreachable,0,0,0,2026-06-08T09:39:10.180217,75.84
+247games.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:40:33.173416,0.23
+gsngames.com,ERROR,Hard Timeout,0,0,0,2026-06-08T09:39:17.725101,90.01
+jigsawplanet.com,ERROR,Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:,0,0,0,2026-06-08T09:40:54.790950,0.25
+spider-solitaire.com,ERROR,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://spider-soli,0,0,0,2026-06-08T09:41:01.754511,1.78
+playok.com,ERROR,Timeout & Unreachable,0,0,0,2026-06-08T09:40:38.027413,34.39
+riotgames.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:41:24.857112,17.73
+blizzard.com,ERROR,Page.evaluate: TypeError: Cannot read properties of null (re,0,0,0,2026-06-08T09:41:31.844906,22.45
+roblox.com,ERROR,Page.evaluate: TypeError: Cannot read properties of null (re,0,0,0,2026-06-08T09:41:44.903755,10.79
+scopely.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:42:13.440701,18.16
+humblebundle.com,ERROR,Page.evaluate: TypeError: Cannot read properties of null (re,0,0,0,2026-06-08T09:42:49.501367,20.05
+angrybirds.com,ERROR,Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://angrybirds,0,0,0,2026-06-08T09:43:19.561998,1.67
+hades.game,ERROR,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://hades.game/,0,0,0,2026-06-08T09:44:44.795874,7.89
+greekmythology.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:44:43.841628,17.1
+revivaltv.id,ERROR,Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://re,0,0,0,2026-06-08T09:45:11.464723,1.95
+oneesports.id,ERROR,Page.evaluate: TypeError: Cannot read properties of null (re,0,0,0,2026-06-08T09:45:00.641843,17.8
+gamefever.id,ERROR,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://gamefever.i,0,0,0,2026-06-08T09:45:20.248115,0.34
+jagatplay.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:45:24.862322,23.68
+skor.id,ERROR,Page.evaluate: TypeError: Cannot read properties of null (re,0,0,0,2026-06-08T09:45:57.946361,16.38
+ligagame.com,ERROR,Timeout & Unreachable,0,0,0,2026-06-08T09:45:48.255785,78.69
+nintendolife.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:47:10.469854,22.68
+pushsquare.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:47:17.686816,21.16
+purexbox.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:47:19.829184,25.48
+jpnn.com,ERROR,Timeout & Unreachable,0,0,0,2026-06-08T09:50:09.775271,30.97
+kominfo.go.id,ERROR,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://kominfo.go.,0,0,0,2026-06-08T09:50:55.282942,3.21
+kemdikbud.go.id,ERROR,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://kemdikbud.g,0,0,0,2026-06-08T09:51:04.760108,2.51
+kemkes.go.id,ERROR,Page Blank,0,0,0,2026-06-08T09:51:23.597075,6.84
+sekolah.mu,ERROR,Page Blank,0,0,0,2026-06-08T09:51:37.147281,15.93
+ajaib.co.id,ERROR,Page Blank,0,0,0,2026-06-08T09:51:49.328604,9.04
+brainpop.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:51:39.284392,21.28
+lazada.co.id,ERROR,Page.evaluate: TypeError: Cannot read properties of null (re,0,0,0,2026-06-08T09:53:14.109831,15.28
+gearboxsoftware.com,ERROR,Page.evaluate: TypeError: Cannot read properties of null (re,0,0,0,2026-06-08T09:53:54.646571,13.22
+gamejolt.com,ERROR,"Page.evaluate: Execution context was destroyed, most likely ",0,0,0,2026-06-08T09:54:24.784577,12.23

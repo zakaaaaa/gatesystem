@@ -1,0 +1,37 @@
+{
+  "tanggal_evaluasi": "2026-06-08 21:20:24",
+  "jumlah_sampel_dievaluasi": 2300,
+  "confusion_matrix": {
+    "TP": 1760,
+    "TN": 283,
+    "FP": 17,
+    "FN": 240
+  },
+  "metrik": {
+    "accuracy": 0.8883,
+    "precision": 0.9904,
+    "recall": 0.88,
+    "f1_score": 0.932
+  },
+  "metrik_persen": {
+    "accuracy": 88.83,
+    "precision": 99.04,
+    "recall": 88.0,
+    "f1_score": 93.2
+  },
+  "catatan_data": {
+    "baris_terlabel_terjodoh": 2300,
+    "tanpa_prediksi (belum discan)": 0,
+    "belum_dilabel": 0,
+    "label_tidak_valid": 0
+  },
+  "dikeluarkan_dari_metrik": {
+    "total": 0,
+    "rincian": {},
+    "keterangan": "Situs tak terbaca wajar (blokir Komdigi / mati / tantangan bot) dikeluarkan agar metrik mencerminkan kinerja pada konten judol yang benar-benar dapat diakses."
+  },
+  "komposisi_kelas_sebenarnya": {
+    "positif (judol)": 2000,
+    "negatif (non-judol)": 300
+  }
+}

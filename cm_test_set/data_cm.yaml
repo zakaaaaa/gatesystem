@@ -1,0 +1,14 @@
+names:
+  0: zeus
+  1: koin
+  2: vulgar
+  3: jp
+  4: casino
+  5: pragmatic
+  6: mahjong
+  7: pool
+  8: pg
+  9: mahjong_card
+path: /Users/zakakurniarahman/Downloads/laporan-kp/kode/cm_test_set
+train: images
+val: images

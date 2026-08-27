@@ -1,0 +1,133 @@
+{
+  "tanggal_run": "2026-06-08 09:56:03",
+  "total_url_input": 300,
+  "total_berhasil": 247,
+  "total_gagal": 53,
+  "tingkat_keberhasilan_persen": 82.33,
+  "distribusi_klasifikasi": {
+    "LOW": 230,
+    "MEDIUM": 13,
+    "HIGH": 4
+  },
+  "distribusi_persen": {
+    "LOW": 93.12,
+    "MEDIUM": 5.26,
+    "HIGH": 1.62
+  },
+  "skor_final": {
+    "rata_rata": 7.29,
+    "minimum": 0.0,
+    "maksimum": 62.5
+  },
+  "skor_visual": {
+    "rata_rata": 3.78,
+    "minimum": 0,
+    "maksimum": 100
+  },
+  "skor_tekstual": {
+    "rata_rata": 10.79,
+    "minimum": 0,
+    "maksimum": 100
+  },
+  "durasi_total_detik": 1174.76,
+  "durasi_total_menit": 19.58,
+  "rata_rata_per_url_detik": 20.9,
+  "top_10_label_visual": [
+    [
+      "mahjong_card",
+      16
+    ],
+    [
+      "mahjong",
+      10
+    ],
+    [
+      "pool",
+      9
+    ],
+    [
+      "koin",
+      9
+    ],
+    [
+      "casino",
+      3
+    ],
+    [
+      "pragmatic",
+      3
+    ],
+    [
+      "vulgar",
+      2
+    ],
+    [
+      "zeus",
+      1
+    ]
+  ],
+  "top_10_keyword_tekstual": [
+    [
+      "live",
+      97
+    ],
+    [
+      "bet",
+      73
+    ],
+    [
+      "rtp",
+      30
+    ],
+    [
+      "slot",
+      15
+    ],
+    [
+      "deposit",
+      11
+    ],
+    [
+      "withdraw",
+      9
+    ],
+    [
+      "pola",
+      8
+    ],
+    [
+      "judi",
+      6
+    ],
+    [
+      "casino",
+      5
+    ],
+    [
+      "zeus",
+      4
+    ]
+  ],
+  "top_5_error": [
+    [
+      "Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https:",
+      15
+    ],
+    [
+      "Page.evaluate: Execution context was destroyed, most likely ",
+      11
+    ],
+    [
+      "Page.evaluate: TypeError: Cannot read properties of null (re",
+      8
+    ],
+    [
+      "Timeout & Unreachable",
+      4
+    ],
+    [
+      "Page Blank",
+      3
+    ]
+  ]
+}

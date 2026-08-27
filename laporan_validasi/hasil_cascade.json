@@ -1,0 +1,75 @@
+{
+  "baseline": {
+    "TP": 1760,
+    "FN": 240,
+    "FP": 17,
+    "TN": 283,
+    "accuracy": 88.83,
+    "precision": 99.04,
+    "recall": 88.0,
+    "f1": 93.2
+  },
+  "zona": {
+    "total": 254,
+    "terverifikasi": 227,
+    "tak_terakses": 27
+  },
+  "per_ambang": {
+    "0.5": {
+      "metrics": {
+        "TP": 1759,
+        "FN": 241,
+        "FP": 16,
+        "TN": 284,
+        "accuracy": 88.83,
+        "precision": 99.1,
+        "recall": 87.95,
+        "f1": 93.19
+      },
+      "naik_HIGH": 225,
+      "turun_LOW": 2,
+      "perubahan_benar": 215,
+      "perubahan_salah": 12
+    },
+    "0.3": {
+      "metrics": {
+        "TP": 1759,
+        "FN": 241,
+        "FP": 16,
+        "TN": 284,
+        "accuracy": 88.83,
+        "precision": 99.1,
+        "recall": 87.95,
+        "f1": 93.19
+      },
+      "naik_HIGH": 225,
+      "turun_LOW": 2,
+      "perubahan_benar": 215,
+      "perubahan_salah": 12
+    },
+    "0.7": {
+      "metrics": {
+        "TP": 1759,
+        "FN": 241,
+        "FP": 15,
+        "TN": 285,
+        "accuracy": 88.87,
+        "precision": 99.15,
+        "recall": 87.95,
+        "f1": 93.22
+      },
+      "naik_HIGH": 224,
+      "turun_LOW": 3,
+      "perubahan_benar": 216,
+      "perubahan_salah": 11
+    }
+  },
+  "zona_detail_0.5": {
+    "judol_terverifikasi": 215,
+    "judol_dipertahankan_HIGH": 214,
+    "judol_jadi_FN": 1,
+    "non_terverifikasi": 12,
+    "non_dibuang_ke_LOW": 1,
+    "non_tetap_FP": 11
+  }
+}

@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- OS / editor ---
+.DS_Store
+
+# --- Environment lokal Claude Code (izin mesin ini saja) ---
+.claude/settings.local.json
+
+# --- Log & file sementara ---
+*.log
+*_temp.jpg
+*.cache
+
+# =====================================================================
+# Data super-berat: JANGAN di-push (total +/- 5,4 GB).
+# GitHub batas 100 MB/file, 2 GB/push. Pindah manual (tar / cloud).
+#   train/                = 2,0 GB, dataset training YOLO (perlu utk retrain)
+#   hasil_analisa_judol/  = 3,2 GB, output screening, bisa digenerate ulang
+#   dataset_demo_refresh/ = 171 MB, materi demo, bisa digenerate ulang
+# =====================================================================
+train/
+hasil_analisa_judol/
+dataset_demo_refresh/
+
+# =====================================================================
+# OPSIONAL - hasil pipeline yang bisa digenerate ulang (+/- 280 MB).
+# Hapus tanda '#' kalau mau repo lebih ramping. Biarkan ter-comment
+# kalau folder ini dipakai sebagai bukti laporan KP.
+# =====================================================================
+# evidence/
+# evidence_demo/
+# dataset_baru/
+# dataset_demo/
+# dataset_cns_baru/hasil/
+# new_dataset_candidate/
+# runs/
+
+# Model IndoBERT hasil fine-tune Colab (kalau nanti disalin ke sini)
+indobert_gate/

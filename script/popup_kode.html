@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+body { margin:0; background:#272822; }
+.wrap { padding: 28px 32px; }
+pre { font-family: 'SF Mono','Menlo','Consolas',monospace; font-size:16px; line-height:1.55; margin:0; }
+.filetag { color:#9a9a9a; font-family:'SF Mono',monospace; font-size:13px; margin-bottom:10px; }
+</style></head>
+<body><div class="wrap">
+<div class="filetag">screening_gate.py &nbsp;·&nbsp; fungsi _process_page()</div>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%;"><span></span><span style="color: #66D9EF">async</span> <span style="color: #66D9EF">def</span><span style="color: #F8F8F2"> </span><span style="color: #A6E22E">_process_page</span><span style="color: #F8F8F2">(page,</span> <span style="color: #F8F8F2">url,</span> <span style="color: #F8F8F2">scan_result):</span>
+    <span style="color: #959077"># ... (pemuatan halaman &amp; klasifikasi status akses di atas potongan ini)</span>
+
+    <span style="color: #959077"># --- Penanganan popup iklan: klik dua sudut halaman ---</span>
+    <span style="color: #66D9EF">try</span><span style="color: #F8F8F2">:</span>
+        <span style="color: #F8F8F2">vp</span> <span style="color: #FF4689">=</span> <span style="color: #F8F8F2">page</span><span style="color: #FF4689">.</span><span style="color: #F8F8F2">viewport_size</span>
+        <span style="color: #F8F8F2">width</span> <span style="color: #FF4689">=</span> <span style="color: #F8F8F2">vp[</span><span style="color: #E6DB74">&#39;width&#39;</span><span style="color: #F8F8F2">]</span> <span style="color: #66D9EF">if</span> <span style="color: #F8F8F2">vp</span> <span style="color: #66D9EF">else</span> <span style="color: #AE81FF">1366</span>
+        <span style="color: #66D9EF">await</span> <span style="color: #F8F8F2">page</span><span style="color: #FF4689">.</span><span style="color: #F8F8F2">mouse</span><span style="color: #FF4689">.</span><span style="color: #F8F8F2">click(</span><span style="color: #AE81FF">50</span><span style="color: #F8F8F2">,</span> <span style="color: #AE81FF">50</span><span style="color: #F8F8F2">)</span>              <span style="color: #959077"># sudut kiri atas</span>
+        <span style="color: #66D9EF">await</span> <span style="color: #F8F8F2">asyncio</span><span style="color: #FF4689">.</span><span style="color: #F8F8F2">sleep(</span><span style="color: #AE81FF">0.2</span><span style="color: #F8F8F2">)</span>
+        <span style="color: #66D9EF">await</span> <span style="color: #F8F8F2">page</span><span style="color: #FF4689">.</span><span style="color: #F8F8F2">mouse</span><span style="color: #FF4689">.</span><span style="color: #F8F8F2">click(width</span> <span style="color: #FF4689">-</span> <span style="color: #AE81FF">50</span><span style="color: #F8F8F2">,</span> <span style="color: #AE81FF">50</span><span style="color: #F8F8F2">)</span>       <span style="color: #959077"># sudut kanan atas</span>
+    <span style="color: #66D9EF">except</span> <span style="color: #A6E22E">Exception</span><span style="color: #F8F8F2">:</span>
+        <span style="color: #959077"># Jika tidak ada popup atau elemen tidak dapat diklik,</span>
+        <span style="color: #959077"># kegagalan diabaikan agar alur scan_url() tetap berjalan</span>
+        <span style="color: #66D9EF">pass</span>
+
+    <span style="color: #66D9EF">await</span> <span style="color: #F8F8F2">asyncio</span><span style="color: #FF4689">.</span><span style="color: #F8F8F2">sleep(SLEEP_SETTLE)</span>  <span style="color: #959077"># jeda agar halaman &quot;settle&quot; setelah popup ditutup</span>
+</pre></div>
+
+</div></body></html>
